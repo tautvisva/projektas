@@ -1,0 +1,373 @@
+body{
+  position: relative;
+  background-image: -webkit-linear-gradient(rgba(1, 3, 0,0),rgba(1, 3, 0,0.5)) ,url("images/background3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+.aukstis-100 {
+    height: 100px;
+}
+.aukstis-200 {
+    height: 200px;
+}
+.aukstis-300 {
+    height: 300px;
+}
+.aukstis-500 {
+    height: 500px;
+}
+.virsus {
+  margin-top:20px;
+}
+.sonas {
+  margin-right: 40px;
+}
+.picked-color {
+  background-color: black;
+}
+.logo{
+  height: 80px;
+}
+.logotipas {
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-right: 120px;
+  height: 80px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+.carousel{
+  position: absolute;
+  height: auto;
+}
+#slider{
+  width: 1920px;
+  height: auto;
+  overflow: hidden;
+}
+#slider .slides {
+  display: block;
+  width: 12000px;
+  margin: 0;
+  padding: 0;
+}
+#slidertext{
+
+
+}
+#slider.slide {
+  float: left;
+  width: 1920px;
+  height: auto;
+ position: relative;
+}
+#slidertext{
+background-color: rgba(0,0,0,0.5);
+position: absolute;
+top: 50%;
+left: 30%;
+transform: translate(-50%, -50%);
+color: black;
+transition: all 300ms ease;
+
+}
+.slide {
+ position: relative;
+}
+.homenuotrauka {
+  margin-top: 10px;
+}
+.tekstas{
+  display: inline-block;
+}
+.paslaugos {
+    height: 300px;
+    width: 1920px;
+}
+
+.musu-paslaugos {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.item {
+  display: inline-block;
+  margin: 20px;
+
+
+}
+.musupaslaugutekstas{
+  width:250px;
+}
+
+.sekcijosdydis{
+  height: 400px;
+  width: 1920px;
+}
+.kodelverta {
+ float: left;
+  margin-top: 150px;
+  position: absolute;
+  text-align: center;
+  color: black;
+  width:1200px;
+  height:200px;
+  border:20px;
+
+}
+.kodelvertadesne{
+text-align: center;
+margin-top: 20px;
+margin-right: 20px;
+width: 650px;
+height: 400px;
+float: right;
+border:20px;
+}
+.mapstxt{
+margin-left: 750px;
+}
+.maps {
+  text-align: center;
+}
+.apacia{
+  width: 1920px;
+  height: 200px;
+  display: inline;
+
+}
+.apacia{
+  margin-top: 60px;
+  margin-bottom: 10px;
+  width: 40px;
+  height: 40px;
+  font-size: 60px;
+}
+h6 {
+display: inline-block;
+  font-size: 15px;
+  text-decoration: inherit;
+}
+h4 {
+  width: 200px;
+}
+h2{
+  margin-left: 20px;
+}
+h1{
+    margin: 0;
+}
+.telefononr {
+  width: 200px;
+  height: auto;
+}
+li{
+  display: inline-block;
+}
+
+ul.kontaktai li a{
+  white-space: nowrap;
+}
+.apaciosfoto{
+width: 1905px;
+height: 100px;
+}
+.apaciosbuttonai {
+  float: right;
+  padding-right: 40px;
+  padding-bottom: 30px;
+}
+.h3tekstas {
+  padding-left: 30px;
+  text-align: center;
+}
+.navigator{
+  visibility: hidden;
+}
+/* home page cc done */
+/*kontaktu forma*/
+.page-content{
+  float: right;
+}
+#form_container {
+      padding: 15px 15px;
+      margin-top: 15px;
+      background: rgb(153, 179, 255);
+}
+
+@media screen and (max-width:320px){
+.virsausfoto{
+  width: 320px;
+}
+.carousel{
+  display: none;
+
+}
+
+.navigator{
+  visibility:visible;
+  display: block;
+  height: 20px;
+  width: 50px;
+  margin-right:20px;
+  margin-bottom: 5px;
+  float:left;
+  cursor: pointer;
+}
+header .navigator{
+  width: 100px;
+  padding: 0;
+}
+header nav ul{
+  overflow: hidden;
+  padding-left:0;
+  height: 0;
+}
+header nav ul.open{
+  height: auto;
+  float: left
+}
+header nav li{
+  float:none;
+  text-align: left;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+}
+footer .navigator{
+  width: 100px;
+  padding: 0;
+  margin-left: 15px;
+}
+footer nav ul{
+  overflow: hidden;
+  padding-left:0;
+  height: 0;
+}
+footer nav ul.open{
+  height: auto;
+  float: left;
+}
+footer nav li{
+  float:none;
+  text-align: left;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+}
+.btn-primary{
+  margin: 0;
+}
+.logo{
+  width: 120px;
+}
+.logotipas{
+  margin-left: 10px;
+}
+span img{
+  width: 320px;
+}
+.paslaugos{
+  width: 10px;
+  margin-left: 70px;
+}
+.musu-paslaugos{
+  width: 320px;
+  height: auto;
+}
+div h2{
+  display: inline-table;
+  margin-left: 60px;
+}
+div.item{
+  margin:0;
+}
+.item a p{
+  white-space: nowrap
+}
+.item a img{
+width: 120px;
+margin:0;
+}
+.kodelverta{
+  width: auto;
+  height: auto;
+  margin-top: -50px;
+}
+.kodelvertadesne{
+  width: 320px;
+  margin-top: 190px;
+  margin-right:0;
+  text-align: center;
+height: auto;
+}
+.sekcijosdydis{
+  width: 320px;
+  height: auto;
+}
+.tel{
+ margin-top: -20%;
+  width: 5%;
+}
+.tel2 ul{
+  height: auto;
+    display: block;
+    margin: unset;
+    padding: 10px;
+}
+.tel2 ul li{
+  margin-left: 10%;
+  display:block;
+  font-size:0;
+}
+.tel2 ul li a i{
+font-size:  40px;
+}
+iframe {
+  width: 320px;
+}
+.apaciosfoto{
+  width: 320px;
+}
+.apaciostextas{
+padding:0;
+margin: 0;
+}
+.h3tekstas{
+display: inline-block;
+font-size: xx-small;
+}
+/* texto dydziai*/
+h1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+h2{
+  font-size:15px;
+}
+p{
+  font-size: 15px;
+}
+.pavadinimas{
+  font-size: 20px;
+}
+.Pastraipos{
+  font-size:15px;
+  text-align: center;
+}
+.apaciosbuttonai{
+  margin-top: 10px;
+}
+
+/*baigta media tel */
+/*apie mus */
+.apiemus{
+  text-align: center;
+  margin: 0;
+}
+}
